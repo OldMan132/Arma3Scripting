@@ -1,0 +1,94 @@
+class CfgFunctions
+{
+	class TES
+	{
+		class Files
+		{
+			class treasureHunt {};
+		};
+	};
+};
+
+class RscTitles
+{
+	class LocateTreasure
+	{    
+		idd = -1;
+		duration = 7;
+        fadeIn = .5;
+        fadeOut = .5;
+		class controls
+		{
+			class IntroMsg
+			{    
+				idc = -1;
+				type = 0;
+				style = 18;
+				x = 0.25; 
+				y = 1;
+				h = 0.22;
+				w = 0.5;
+				font = "EtelkaNarrowMediumPro";
+				sizeEx = 0.05;
+				colorBackground[] = {0.741,0.675,0.608,0.5}; 
+				colorText[] = {0.11,0.102,0.09,1}; 
+				text = "Are you ready for an adventure? I marked a location on the map where the treasure is at. Good Luck!";
+				lineSpacing = 1;
+			};  
+		};	
+	};
+
+    class FoundTreasure
+	{    
+		idd = -2;
+		duration = 7;
+        fadeIn = .5;
+        fadeOut = .5;
+		class controls
+		{
+			class FoundTreasure
+			{    
+				idc = -1;
+				type = 0;
+				style = 18;
+				x = 0.25; 
+				y = 1;
+				h = 0.22;
+				w = 0.5;
+				font = "EtelkaNarrowMediumPro";
+				sizeEx = 0.05;
+				colorBackground[] = {0.741,0.675,0.608,0.5}; 
+				colorText[] = {0.11,0.102,0.09,1}; 
+				text = "You have found the treasure nice job! Its up to you to return the treasure for cash or keep the items.";
+				lineSpacing = 1;
+			};  
+		};	
+	}; 
+	class TurnInTreasure
+	{    
+		idd = -3;
+		duration = 7;
+        fadeIn = .5;
+        fadeOut = .5;
+		class controls
+		{
+			class TurnInTreasure
+			{    
+				idc = -1;
+				type = 0;
+				style = 18;
+				x = 0.25; 
+				y = 1;
+				h = 0.22;
+				w = 0.5;
+				font = "EtelkaNarrowMediumPro";
+				sizeEx = 0.05;
+				colorBackground[] = {0.741,0.675,0.608,0.5}; 
+				colorText[] = {0.11,0.102,0.09,1}; 
+				text = "Nice job! Here is some money for your trouble. I will shoot you a message when I have something new for you.";
+				lineSpacing = 1;
+			};  
+		};	
+	};    
+};
+
